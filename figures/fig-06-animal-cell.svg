@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-label="Unlabeled diagram of an animal cell showing ten numbered organelles and structures">
+<title>Animal cell (unlabeled)</title>
+<style>
+  .fx-n{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:15px;font-weight:500;fill:#fff}
+  .fx-l{font-family:'Source Sans 3',system-ui,sans-serif;font-size:16px;font-weight:600;fill:#3D3591}
+  .fx-lead{stroke:#9A96AD;stroke-width:1.4;fill:none}
+</style>
+<rect width="1000" height="620" fill="#FBFAFD"/>
+
+<!-- plasma membrane + cytosol -->
+<ellipse cx="500" cy="300" rx="290" ry="205" fill="#F5F3FA" stroke="#75718C" stroke-width="7"/>
+<ellipse cx="500" cy="300" rx="283" ry="198" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+
+<!-- cytoskeleton hints -->
+<g stroke="#DEDAE9" stroke-width="2" fill="none">
+  <path d="M250 250 C340 300 420 330 520 500"/>
+  <path d="M300 470 C400 400 520 380 740 330"/>
+  <path d="M470 110 C500 220 560 300 700 470"/>
+</g>
+
+<!-- rough ER -->
+<g stroke="#D5CFE4" stroke-width="13" stroke-linecap="round" fill="none">
+  <path d="M446 210 C500 192 545 222 592 206"/>
+  <path d="M446 242 C502 226 548 256 594 240"/>
+  <path d="M452 274 C505 260 548 288 590 274"/>
+</g>
+<g fill="#3D3591">
+  <circle cx="466" cy="203" r="3.4"/><circle cx="492" cy="197" r="3.4"/><circle cx="520" cy="203" r="3.4"/>
+  <circle cx="548" cy="214" r="3.4"/><circle cx="576" cy="209" r="3.4"/>
+  <circle cx="468" cy="235" r="3.4"/><circle cx="496" cy="229" r="3.4"/><circle cx="524" cy="236" r="3.4"/>
+  <circle cx="552" cy="247" r="3.4"/><circle cx="580" cy="241" r="3.4"/>
+  <circle cx="472" cy="267" r="3.4"/><circle cx="500" cy="262" r="3.4"/><circle cx="528" cy="270" r="3.4"/>
+  <circle cx="556" cy="280" r="3.4"/><circle cx="578" cy="275" r="3.4"/>
+</g>
+
+<!-- smooth ER -->
+<g stroke="#D5CFE4" stroke-width="12" stroke-linecap="round" fill="none">
+  <path d="M560 186 C572 146 618 140 640 164 C662 188 692 172 694 144"/>
+  <path d="M596 196 C624 206 660 196 676 176"/>
+</g>
+
+<!-- Golgi -->
+<g stroke="#C4BCD9" stroke-width="9" stroke-linecap="round" fill="none">
+  <path d="M612 272 Q655 250 700 272"/>
+  <path d="M608 292 Q655 268 704 292"/>
+  <path d="M610 312 Q655 288 702 312"/>
+  <path d="M614 332 Q655 308 700 332"/>
+</g>
+<circle cx="596" cy="256" r="7" fill="none" stroke="#C4BCD9" stroke-width="4"/>
+<circle cx="716" cy="348" r="7" fill="none" stroke="#C4BCD9" stroke-width="4"/>
+
+<!-- mitochondria -->
+<g transform="translate(380 435) rotate(-12)">
+  <ellipse rx="56" ry="31" fill="#FBEDF2" stroke="#C74F7B" stroke-width="2.6"/>
+  <path d="M-38 -18 q14 18 0 36 M-14 -20 q14 20 0 40 M10 -20 q14 20 0 40 M34 -18 q12 18 0 36"
+        fill="none" stroke="#C74F7B" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g transform="translate(652 412) rotate(20)">
+  <ellipse rx="52" ry="29" fill="#FBEDF2" stroke="#C74F7B" stroke-width="2.6"/>
+  <path d="M-34 -17 q13 17 0 34 M-11 -19 q13 19 0 38 M12 -19 q13 19 0 38 M33 -16 q11 16 0 32"
+        fill="none" stroke="#C74F7B" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- lysosome -->
+<circle cx="490" cy="415" r="31" fill="#E8F5EF" stroke="#1C7A57" stroke-width="2.6"/>
+<g fill="#1C7A57" fill-opacity=".55">
+  <circle cx="480" cy="406" r="4"/><circle cx="497" cy="412" r="3.4"/>
+  <circle cx="484" cy="424" r="3.4"/><circle cx="500" cy="427" r="4"/>
+</g>
+
+<!-- free ribosomes -->
+<g fill="#3D3591">
+  <circle cx="258" cy="350" r="4.6"/><circle cx="276" cy="342" r="4.6"/><circle cx="292" cy="356" r="4.6"/>
+  <circle cx="262" cy="370" r="4.6"/><circle cx="282" cy="376" r="4.6"/><circle cx="300" cy="338" r="4.6"/>
+  <circle cx="248" cy="334" r="4.6"/><circle cx="304" cy="372" r="4.6"/><circle cx="272" cy="392" r="4.6"/>
+</g>
+
+<!-- centrosome -->
+<g fill="#FFFFFF" stroke="#4A4763" stroke-width="2.4">
+  <rect x="398" y="132" width="32" height="13" rx="4"/>
+  <rect x="440" y="120" width="13" height="32" rx="4"/>
+</g>
+
+<!-- nucleus -->
+<circle cx="350" cy="250" r="88" fill="#EDEBF9" stroke="#3D3591" stroke-width="3"/>
+<circle cx="350" cy="250" r="81" fill="none" stroke="#3D3591" stroke-width="1.6"/>
+<g stroke="#3D3591" stroke-opacity=".32" stroke-width="3" fill="none" stroke-linecap="round">
+  <path d="M300 286 q26 -16 44 6 t46 -2"/>
+  <path d="M310 214 q30 20 54 -4"/>
+  <path d="M368 300 q22 -12 30 -34"/>
+</g>
+<circle cx="326" cy="236" r="28" fill="#3D3591" fill-opacity=".5" stroke="#3D3591" stroke-width="2"/>
+
+<!-- callouts -->
+<path class="fx-lead" d="M175 250 L266 252"/>
+<g><circle cx="160" cy="250" r="15" fill="#3D3591"/><text class="fx-n" x="160" y="255" text-anchor="middle">1</text></g>
+<text class="fx-l" data-lbl="1" opacity="0" x="136" y="256" text-anchor="end">Nucleus</text>
+
+<path class="fx-lead" d="M228 212 L300 232"/>
+<g><circle cx="214" cy="206" r="15" fill="#3D3591"/><text class="fx-n" x="214" y="211" text-anchor="middle">2</text></g>
+<text class="fx-l" data-lbl="2" opacity="0" x="214" y="174" text-anchor="middle">Nucleolus</text>
+
+<path class="fx-lead" d="M560 551 L557 292"/>
+<g><circle cx="560" cy="566" r="15" fill="#3D3591"/><text class="fx-n" x="560" y="571" text-anchor="middle">3</text></g>
+<text class="fx-l" data-lbl="3" opacity="0" x="560" y="600" text-anchor="middle">Rough ER</text>
+
+<path class="fx-lead" d="M821 154 L694 158"/>
+<g><circle cx="835" cy="150" r="15" fill="#3D3591"/><text class="fx-n" x="835" y="155" text-anchor="middle">4</text></g>
+<text class="fx-l" data-lbl="4" opacity="0" x="855" y="156" text-anchor="start">Smooth ER</text>
+
+<path class="fx-lead" d="M821 338 L714 318"/>
+<g><circle cx="835" cy="342" r="15" fill="#3D3591"/><text class="fx-n" x="835" y="347" text-anchor="middle">5</text></g>
+<text class="fx-l" data-lbl="5" opacity="0" x="855" y="348" text-anchor="start">Golgi apparatus</text>
+
+<path class="fx-lead" d="M821 428 L706 416"/>
+<g><circle cx="835" cy="430" r="15" fill="#3D3591"/><text class="fx-n" x="835" y="435" text-anchor="middle">6</text></g>
+<text class="fx-l" data-lbl="6" opacity="0" x="855" y="436" text-anchor="start">Mitochondrion</text>
+
+<path class="fx-lead" d="M430 551 L476 444"/>
+<g><circle cx="430" cy="566" r="15" fill="#3D3591"/><text class="fx-n" x="430" y="571" text-anchor="middle">7</text></g>
+<text class="fx-l" data-lbl="7" opacity="0" x="430" y="600" text-anchor="middle">Lysosome</text>
+
+<path class="fx-lead" d="M300 536 L352 481"/>
+<g><circle cx="290" cy="548" r="15" fill="#3D3591"/><text class="fx-n" x="290" y="553" text-anchor="middle">8</text></g>
+<text class="fx-l" data-lbl="8" opacity="0" x="272" y="586" text-anchor="middle">Plasma membrane</text>
+
+<path class="fx-lead" d="M175 362 L242 358"/>
+<g><circle cx="160" cy="364" r="15" fill="#3D3591"/><text class="fx-n" x="160" y="369" text-anchor="middle">9</text></g>
+<text class="fx-l" data-lbl="9" opacity="0" x="136" y="370" text-anchor="end">Free ribosomes</text>
+
+<path class="fx-lead" d="M424 76 L424 126"/>
+<g><circle cx="424" cy="61" r="15" fill="#3D3591"/><text class="fx-n" x="424" y="66" text-anchor="middle">10</text></g>
+<text class="fx-l" data-lbl="10" opacity="0" x="424" y="32" text-anchor="middle">Centrosome</text>
+</svg>

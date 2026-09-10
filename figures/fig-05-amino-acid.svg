@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" role="img" aria-label="Unlabeled general structure of an amino acid with five numbered callouts">
+<title>Amino acid — general structure (unlabeled)</title>
+<style>
+  .fx-t{font-family:'Source Sans 3',system-ui,-apple-system,sans-serif}
+  .fx-f{font-family:'Source Sans 3',system-ui,sans-serif;font-size:23px;font-weight:600;fill:#1B1A2E}
+  .fx-n{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:15px;font-weight:500;fill:#fff}
+  .fx-l{font-family:'Source Sans 3',system-ui,sans-serif;font-size:16px;font-weight:600;fill:#3D3591}
+  .fx-lead{stroke:#9A96AD;stroke-width:1.4;fill:none}
+</style>
+<rect width="680" height="420" fill="#FBFAFD"/>
+
+<!-- bonds -->
+<g stroke="#4A4763" stroke-width="2.6" stroke-linecap="round">
+  <line x1="340" y1="184" x2="340" y2="136"/>
+  <line x1="340" y1="236" x2="340" y2="288"/>
+  <line x1="312" y1="210" x2="246" y2="210"/>
+  <line x1="368" y1="210" x2="436" y2="210"/>
+</g>
+
+<!-- alpha carbon -->
+<circle cx="340" cy="210" r="28" fill="#EDEBF9" stroke="#3D3591" stroke-width="2.2"/>
+<text class="fx-f" x="340" y="218" text-anchor="middle" fill="#3D3591">C</text>
+
+<!-- hydrogen -->
+<circle cx="340" cy="110" r="26" fill="#FFFFFF" stroke="#CFCADD" stroke-width="2"/>
+<text class="fx-f" x="340" y="118" text-anchor="middle">H</text>
+
+<!-- amino group -->
+<rect x="140" y="180" width="106" height="60" rx="14" fill="#EDEBF9" stroke="#3D3591" stroke-width="2"/>
+<text class="fx-f" x="193" y="219" text-anchor="middle" fill="#3D3591">NH<tspan font-size="16" dy="6">2</tspan></text>
+
+<!-- carboxyl group -->
+<rect x="436" y="180" width="122" height="60" rx="14" fill="#FBEDF2" stroke="#C74F7B" stroke-width="2"/>
+<text class="fx-f" x="497" y="219" text-anchor="middle" fill="#B03F6A">COOH</text>
+
+<!-- R group -->
+<rect x="296" y="288" width="88" height="60" rx="14" fill="#FFFFFF" stroke="#4A4763" stroke-width="2" stroke-dasharray="7 5"/>
+<text class="fx-f" x="340" y="327" text-anchor="middle">R</text>
+
+<!-- callouts -->
+<path class="fx-lead" d="M148 150 L172 176"/>
+<g><circle cx="138" cy="140" r="15" fill="#3D3591"/><text class="fx-n" x="138" y="145" text-anchor="middle">1</text></g>
+<text class="fx-l" data-lbl="1" opacity="0" x="138" y="108" text-anchor="middle">Amino group</text>
+
+<path class="fx-lead" d="M548 150 L522 176"/>
+<g><circle cx="558" cy="140" r="15" fill="#3D3591"/><text class="fx-n" x="558" y="145" text-anchor="middle">2</text></g>
+<text class="fx-l" data-lbl="2" opacity="0" x="558" y="108" text-anchor="middle">Carboxyl group</text>
+
+<path class="fx-lead" d="M414 246 L364 226"/>
+<g><circle cx="428" cy="252" r="15" fill="#3D3591"/><text class="fx-n" x="428" y="257" text-anchor="middle">3</text></g>
+<text class="fx-l" data-lbl="3" opacity="0" x="446" y="286" text-anchor="start">Alpha (α) carbon</text>
+
+<path class="fx-lead" d="M232 330 L292 322"/>
+<g><circle cx="218" cy="332" r="15" fill="#3D3591"/><text class="fx-n" x="218" y="337" text-anchor="middle">4</text></g>
+<text class="fx-l" data-lbl="4" opacity="0" x="218" y="372" text-anchor="middle">Side chain (R group)</text>
+
+<path class="fx-lead" d="M414 88 L368 102"/>
+<g><circle cx="428" cy="84" r="15" fill="#3D3591"/><text class="fx-n" x="428" y="89" text-anchor="middle">5</text></g>
+<text class="fx-l" data-lbl="5" opacity="0" x="448" y="90" text-anchor="start">Hydrogen atom</text>
+</svg>
